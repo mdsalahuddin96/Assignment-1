@@ -114,6 +114,7 @@ nav .btn-container{
     background-color: rgba(70, 145, 101, 1);
     border: none;
 }
+/* Notes section design */
 .notes{
     padding: 0px 120px;
     display: flex;
@@ -146,6 +147,9 @@ nav .btn-container{
     justify-content: center;
     align-items: center;
     gap: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.3)
     /* width: 400px; */
     /* border: 1px solid blue; */
 }
@@ -158,7 +162,7 @@ nav .btn-container{
     line-height: 20px;
     color: #627382;
 }
-
+/* brain section design */
 .brain{
     padding: 120px;
 }
@@ -191,5 +195,28 @@ nav .btn-container{
     font-size: 16px;
     color: #001931;
     line-height: 20px;
+    margin-bottom: 16px;
+}
+/* Challenge section */
+.challenge{
+    padding: 0px 120px 120px 120px;
+}
+.challenge-header{
+    /* border: 1px solid green; */
+    text-align: center;
+    padding:80px 40px;
+}
+.challenge-header h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.challenge-header p{
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.challenge-header button{
     margin-bottom: 16px;
 }
