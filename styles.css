@@ -40,6 +40,10 @@
     justify-content: center;
     align-items: center;
 }
+.hero .hero-content, .notes-header, .card-heading, .card-text{
+    /* border: 1px solid red; */
+    text-align: center;
+}
 /* main style */
 nav{
     display: flex;
@@ -71,11 +75,18 @@ nav .btn-container{
 .hero{
     background: url("./assets/hero-bg.png");
     background-size: cover;
-    padding: 123.5px 120px 179.5px 120px;
+    padding: 115.5px 120px 179.5px 120px;
 }
-.hero .hero-content{
+{
     text-align: center;
-    padding: 51px 295px 0px 295px;
+}
+.hero-subheading{
+    background-color: white;
+    display: inline-block;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    color: #30B868;
+    font-weight: 500px;
 }
 .hero-heading{
     margin-bottom: 16px;
@@ -121,10 +132,7 @@ nav .btn-container{
     flex-direction: column;
     gap:44px;
 }
-.notes-header, .card-heading, .card-text{
-    /* border: 1px solid red; */
-    text-align: center;
-}
+
 .notes-header h1{
     font-size: 48px;
     font-weight: bold;
