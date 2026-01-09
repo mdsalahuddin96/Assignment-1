@@ -72,13 +72,12 @@ nav .logo{
 nav .btn-container{
     margin: 24px 120px 24px 0px;
 }
+
+/* Hero section design */
 .hero{
     background: url("./assets/hero-bg.png");
     background-size: cover;
     padding: 115.5px 120px 179.5px 120px;
-}
-{
-    text-align: center;
 }
 .hero-subheading{
     background-color: white;
@@ -87,6 +86,7 @@ nav .btn-container{
     padding: 8px 12px;
     color: #30B868;
     font-weight: 500px;
+    margin-bottom: 16px;
 }
 .hero-heading{
     margin-bottom: 16px;
@@ -125,6 +125,7 @@ nav .btn-container{
     background-color: rgba(70, 145, 101, 1);
     border: none;
 }
+
 /* Notes section design */
 .notes{
     padding: 0px 120px;
@@ -132,7 +133,6 @@ nav .btn-container{
     flex-direction: column;
     gap:44px;
 }
-
 .notes-header h1{
     font-size: 48px;
     font-weight: bold;
@@ -170,6 +170,7 @@ nav .btn-container{
     line-height: 20px;
     color: #627382;
 }
+
 /* brain section design */
 .brain{
     padding: 120px;
@@ -205,6 +206,7 @@ nav .btn-container{
     line-height: 20px;
     margin-bottom: 16px;
 }
+
 /* Challenge section */
 .challenge{
     padding: 0px 120px 120px 120px;
@@ -227,4 +229,51 @@ nav .btn-container{
 }
 .challenge-header button{
     margin-bottom: 16px;
+}
+
+/* Footer section design */
+footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+.footer-content{
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-container p{
+    color: #FFFFFF;
+    margin-right: 107px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.social-links{
+    display: flex;
+    gap: 16px;
+}
+.social{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.author{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.author p{
+    color: #fafafa;
+    line-height: 24px;
+    margin-top: 30px;
+}
+hr {
+  border: none;            
+  height: 1px;               
+  background-color: rgba(229, 231, 235, 0.2);    
 }
