@@ -12,7 +12,7 @@
     width: 95%;
     max-width: 1600px;
     margin: 0 auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .btn{
     font-size: 16px;
@@ -149,7 +149,6 @@ nav .btn-container{
     /* width: 400px; */
     /* border: 1px solid blue; */
 }
-
 .card-heading h2{
     font-weight: 500;
     font-size: 24px;
@@ -158,4 +157,39 @@ nav .btn-container{
 .card-text p{
     line-height: 20px;
     color: #627382;
+}
+
+.brain{
+    padding: 120px;
+}
+.brain-content{
+    /* border: 1px solid brown; */
+    display: flex;
+}
+.brain-text-container{
+    /* border: 1px solid blue; */
+    padding: 102px 0px 102px 60px;
+}
+.brain-text-container h3{
+    font-weight: 500;
+    color:#30B868;
+    margin-bottom: 16px;
+}
+.brain-text-container h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.brain-text-container p{
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.brain-text-container li{
+    list-style: none;
+    font-size: 16px;
+    color: #001931;
+    line-height: 20px;
+    margin-bottom: 16px;
 }
