@@ -12,7 +12,7 @@
     width: 95%;
     max-width: 1600px;
     margin: 0 auto;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 .btn{
     font-size: 16px;
@@ -29,6 +29,16 @@
     color:rgba(70, 145, 101, 1);
     cursor: pointer;
     border: 1px solid black;
+}
+.card-img{
+    margin-top: 69.5px;
+    width: 60px;
+    height: 60px;
+    background-color: brown;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* main style */
 nav{
@@ -103,4 +113,49 @@ nav .btn-container{
 .hero-btn a:hover{
     background-color: rgba(70, 145, 101, 1);
     border: none;
+}
+.notes{
+    padding: 0px 120px;
+    display: flex;
+    flex-direction: column;
+    gap:44px;
+}
+.notes-header, .card-heading, .card-text{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.notes-header h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 50px;
+}
+.notes-header p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+.notes-card-container{
+    display: flex;
+    gap:16px;
+}
+.note-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    /* width: 400px; */
+    /* border: 1px solid blue; */
+}
+
+.card-heading h2{
+    font-weight: 500;
+    font-size: 24px;
+    color: #001931;
+}
+.card-text p{
+    line-height: 20px;
+    color: #627382;
 }
