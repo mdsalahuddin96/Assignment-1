@@ -44,6 +44,7 @@
     /* border: 1px solid red; */
     text-align: center;
 }
+
 /* main style */
 nav{
     display: flex;
@@ -72,6 +73,7 @@ nav .logo{
 nav .btn-container{
     margin: 24px 120px 24px 0px;
 }
+
 
 /* Hero section design */
 .hero{
@@ -126,6 +128,7 @@ nav .btn-container{
     border: none;
 }
 
+
 /* Notes section design */
 .notes{
     padding: 0px 120px;
@@ -150,6 +153,7 @@ nav .btn-container{
     gap:16px;
 }
 .note-card{
+    color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,8 +162,6 @@ nav .btn-container{
     border-radius: 10px;
     padding: 10px;
     box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.3)
-    /* width: 400px; */
-    /* border: 1px solid blue; */
 }
 .card-heading h2{
     font-weight: 500;
@@ -170,6 +172,7 @@ nav .btn-container{
     line-height: 20px;
     color: #627382;
 }
+
 
 /* brain section design */
 .brain{
@@ -207,12 +210,12 @@ nav .btn-container{
     margin-bottom: 16px;
 }
 
+
 /* Challenge section */
 .challenge{
     padding: 0px 120px 120px 120px;
 }
 .challenge-header{
-    /* border: 1px solid green; */
     text-align: center;
     padding:80px 40px;
 }
@@ -231,13 +234,13 @@ nav .btn-container{
     margin-bottom: 16px;
 }
 
+
 /* Footer section design */
 footer{
     background-color: #001931;
     padding: 120px 120px 30px 120px;
 }
 .footer-content{
-    /* border: 1px solid white; */
     display: flex;
     justify-content: space-between;
 }
@@ -257,7 +260,7 @@ footer{
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: wheat;
+    background-color: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
